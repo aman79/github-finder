@@ -22,7 +22,7 @@ class Search extends Component {
 	};
 
 	render() {
-		const { showClears, clearUsers } = this.props;
+		const { showClear, clearUsers } = this.props;
 		return (
 			<div>
 				<form onSubmit={this.onSubmit} className='form'>
